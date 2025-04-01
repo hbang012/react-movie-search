@@ -7,7 +7,8 @@ import { useEffect, useState } from 'react';
 // ?파라메터=값&파라메터=값, 쿼리스트링을통해 서버로 데이터 전송
 // get방식으로 데이터 요청시 사용
 // tt: 발급 아이디 ?
-const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=f4734f61';
+// https여야 버셀 빌드됨
+const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=f4734f61';
 
 // useEffect를 쓰는이유:렌더링 될때마다 계속 데이터를 가져오기때문에
 // 외부동작, App이라는 데이터랑 관련이 없음... 외부의 것을 가져오기때문에
